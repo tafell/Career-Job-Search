@@ -22,7 +22,9 @@ List the kinds of roles you pursue, in priority order. Each gets a short descrip
 ## 3. Constraints
 
 - Location: remote, and/or commutable from (city, radius):
-- Compensation minimum (your own figure; used only to flag roles that fall short):
+- Compensation minimum (base salary): 100000
+  <!-- PLACEHOLDER: 100000 is an example value, not a recommendation. Replace it with your own minimum base salary (numbers only, in your currency). Roles whose posted range tops out below this are marked SETTLE or PASS. Delete the line to skip compensation screening. -->
+- Compensation notes (optional; example: "bonus counts toward the minimum", "consider lower base for remote"):
 - Level minimum (titles below this count as a step down):
 - Industries to favor or avoid:
 

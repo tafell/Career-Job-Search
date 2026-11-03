@@ -17,9 +17,11 @@ If there is no profile, ask for the minimum needed (target role and level, locat
 
 ## Verdicts
 
-1. **PURSUE**: fits an archetype, clears the user's compensation minimum and level, gaps are reframeable.
+<!-- COMPENSATION MINIMUM: the "compensation minimum" below comes from the user's profile. If the profile has none, use the placeholder base salary minimum of 100000 and say in the output that the placeholder was used. 100000 is an example value only; each user should replace it in their profile. -->
+
+1. **PURSUE**: fits an archetype, clears the user's compensation minimum (placeholder: 100000 base salary) and level, gaps are reframeable.
 2. **STRETCH**: fits and clears compensation and level, but a hard requirement hits a credibility gap.
-3. **SETTLE**: a great fit on the work itself, but compensation tops out below the user's minimum, or the level is a step down. State the trigger: compensation, level, or both.
+3. **SETTLE**: a great fit on the work itself, but the posted range tops out below the user's minimum base salary (placeholder: 100000), or the level is a step down. State the trigger: compensation, level, or both.
 4. **PASS**: wrong archetype, hard structural mismatch, or poor fit on the work.
 
 A weak fit that is also below compensation or level is PASS, not SETTLE. SETTLE requires the work itself to be a great fit.
@@ -48,7 +50,7 @@ A weak fit that is also below compensation or level is PASS, not SETTLE. SETTLE 
 Score each line against the profile:
 
 1. Sort into the profile's archetype lanes.
-2. Apply location and pass signals. Postings placed in many small cities are often multi-site placeholders: keep only if remote or near the user.
+2. Apply the base salary minimum (placeholder: 100000 unless the profile sets one; postings that show 0 or 1 as the salary have not disclosed pay, so treat them as undisclosed, not below the minimum), location, and pass signals. Postings placed in many small cities are often multi-site placeholders: keep only if remote or near the user.
 3. Check the employer's title ladder before judging seniority.
 4. Do not PASS at title stage only on compensation or level if the work looks like a great fit; open it and test for SETTLE.
 
