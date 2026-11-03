@@ -1,0 +1,12 @@
+{
+  "name": "career-job-search",
+  "version": "0.1.0",
+  "description": "Job search toolkit for senior leaders: evidence-based resume coaching, in-depth job posting review, and job alert triage through tailored applications.",
+  "author": {
+    "name": "Tim Fell"
+  },
+  "homepage": "https://github.com/tafell/career-job-search",
+  "repository": "https://github.com/tafell/career-job-search",
+  "license": "MIT",
+  "keywords": ["job search", "resume", "career", "job posting", "cover letter", "executive"]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "career-job-search",
+  "owner": {
+    "name": "Tim Fell"
+  },
+  "plugins": [
+    {
+      "name": "career-job-search",
+      "source": "./",
+      "description": "Job search toolkit for senior leaders: evidence-based resume coaching, in-depth job posting review, and job alert triage through tailored applications."
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+# Personal files: never publish
+*profile*.filled.md
+my-job-search-profile.md
+*Resume*.docx
+*CoverLetter*.docx
+*.pdf
+*.plugin
+.DS_Store
