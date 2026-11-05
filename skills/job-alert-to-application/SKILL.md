@@ -110,3 +110,7 @@ Follow `references/tracker-and-run-log.md`: one tracker entry per role with tail
 
 Bottom line first. Numbered per role: requisition, deadline, file names, what was tailored and why. Then counts (lines reviewed, PURSUE, STRETCH, SETTLE, PASS), tracker entries added or updated with links, the target-list question, the SETTLE documents question when relevant, and the run log link. Close with a short checklist: interpretive phrasing to confirm. Say which steps were skipped if a tool was unreachable. No recap of steps.
 
+## Configure alerts and logging
+
+1. [Move the alert run log to Google Sheets or Excel](../../CONNECTORS.md#move-the-alert-run-log-from-notion-to-google-sheets-or-excel).
+2. [Choose which alert emails to process](../../CONNECTORS.md#choose-which-alert-emails-to-process).
