@@ -2,6 +2,30 @@
 
 Choose the skill by the output you need. Do not run both platform alternatives on the same task unless you want a comparison.
 
+## Job search workflow
+
+Start at the step that matches your situation. If you already have a posting, go straight to Job Posting Review. A public announcement can run alongside any application.
+
+```mermaid
+flowchart TD
+    profile["Your private job search profile"] --> direction["Career Direction: choose target roles"]
+    direction --> discover["Opportunity Discovery: find openings"]
+    direction --> announce["Job Search Announcement: draft a public post"]
+    discover --> review["Job Posting Review: assess one opening"]
+    posting["A posting you already have"] --> review
+    review --> decide{"Do you want to pursue this role?"}
+    decide -->|Yes| materials["Executive Resume Coach: tailor your materials"]
+    decide -->|No or later| track["Search Coordination: record status and next action"]
+    review -.->|Optional| outreach["Job Connection Outreach: find a contact and draft a message"]
+    materials --> submit["You review and submit the application"]
+    submit --> track
+    track -->|Interview scheduled| interview["Interview Preparation: practice for the conversation"]
+    interview -->|Record next steps| track
+```
+
+**Job Alert to Application** coordinates discovery, review, materials, and tracking when you start with a batch of alerts. Ask it to stop after the stage you need. You can also use **Interview Preparation** at any time to build a story bank.
+
+
 | Number | Need | ChatGPT owner | Claude route | Example request |
 | --- | --- | --- | --- | --- |
 | 1 | Choose targets | career-direction | resume coach for role-family alignment | Compare credible target lanes using my evidence. |
