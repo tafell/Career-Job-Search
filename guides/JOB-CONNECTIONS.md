@@ -1,6 +1,6 @@
 # Find Connections for a Job
 
-Use Job Connection Outreach to identify relevant people and prepare a specific request. It distinguishes verified connections from public prospects.
+After submitting your application, use Job Connection Outreach to identify relevant people and prepare a specific request. It distinguishes verified connections from public prospects.
 
 ## Start with
 
@@ -11,7 +11,7 @@ Use Job Connection Outreach to identify relevant people and prepare a specific r
 
 ## Example request
 
-1. "Use job-connection-outreach to find connections relevant to this job. Search my attached connection list, verify current roles where possible, and rank a short list. Separate verified connections from public prospects. Recommend an insight request, introduction, or referral for each person and draft the messages. Do not send anything."
+1. "I have applied for this role. Use job-connection-outreach to find connections relevant to this job. Search my attached connection list, verify current roles where possible, and rank a short list. Separate verified connections from public prospects. Recommend an insight request, introduction, or referral for each person and draft the messages. Do not send anything."
 
 ## What you receive
 
