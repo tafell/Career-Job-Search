@@ -41,4 +41,7 @@ description: "Coordinates discovery, evaluation, materials, and tracking without
 
 18. Hand interview work to interview-preparation and changes to career targets to career-direction. Reuse prior outputs only while their evidence and source dates remain applicable.
 
+## Configure alerts and logging
 
+1. [Move the alert run log to Google Sheets or Excel](../../../CONNECTORS.md#move-the-alert-run-log-from-notion-to-google-sheets-or-excel).
+2. [Choose which alert emails to process](../../../CONNECTORS.md#choose-which-alert-emails-to-process).
