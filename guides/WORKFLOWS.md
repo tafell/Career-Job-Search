@@ -8,22 +8,23 @@ First, announce your availability and offer help to others. After you submit an 
 
 ```mermaid
 flowchart TD
-    announce["Announce your availability and offer help"] --> direction["Career Direction: choose target roles"]
-    direction --> discover["Opportunity Discovery: find openings"]
-    discover --> review["Job Posting Review: assess one opening"]
+    announce["1. Announce your availability and offer help"] --> direction["2. Career Direction: choose target roles"]
+    direction --> discover["3. Opportunity Discovery: find openings"]
+    discover --> review["4. Job Posting Review: assess one opening"]
+    batch["9. Job Alert to Application (batch workflow)"] -.->|Starts with discovery| discover
     posting["A posting you already have"] --> review
     review --> decide{"Do you want to pursue this role?"}
-    decide -->|Yes| materials["Executive Resume Coach: tailor your materials"]
-    decide -->|No or later| track["Search Coordination: record status and next action"]
+    decide -->|Yes| materials["5. Executive Resume Coach: tailor your materials"]
+    decide -->|No or later| track["6. Search Coordination: record status and next action"]
     materials --> submit["You review and submit the application"]
-    submit --> outreach["Find relevant contacts and reach out for help"]
+    submit --> outreach["7. Find relevant contacts and reach out for help"]
     outreach --> track
     submit --> track
-    track -->|Interview scheduled| interview["Interview Preparation: practice for the conversation"]
+    track -->|Interview scheduled| interview["8. Interview Preparation: practice for the conversation"]
     interview -->|Record next steps| track
 ```
 
-**Job Alert to Application** coordinates discovery, review, materials, and tracking when you start with a batch of alerts. Ask it to stop after the stage you need. You can also use **Interview Preparation** at any time to build a story bank.
+**9. Job Alert to Application** coordinates discovery, review, materials, and tracking when you start with a batch of alerts. Ask it to stop after the stage you need. You can also use **Interview Preparation** at any time to build a story bank.
 
 
 | Number | Need | ChatGPT owner | Claude route | Example request |
