@@ -23,7 +23,7 @@ description: "Finds relevant professional connections and drafts private message
 
 9. Keep source documents read-only and save outputs separately. Obtain explicit user instructions before sending correspondence or changing external records. Never overwrite existing tracker values blindly. Use the user's requested scope without adding unrelated work.
 
-10. For a message to a known recipient, use the supplied context and purpose. Skip connection discovery unless requested. For a job-specific contact search, follow the discovery steps below.
+10. For a message to a known recipient, use the supplied context and purpose. Skip connection discovery unless requested. For outreach tied to a specific posting, first confirm from the conversation or tracker that the user applied. If submission is unclear, ask before researching contacts or drafting outreach for that posting. After submission, follow the discovery steps below.
 
 11. Draft outreach from the supplied recipient context, purpose, relationship, and supported career evidence. Do not claim a referral, prior meeting, shared contact, or mutual interest without evidence. Keep a clear request and use profile writing preferences.
 
