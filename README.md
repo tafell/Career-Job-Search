@@ -1,5 +1,7 @@
 # Career Job Search
 
+**New to GitHub?** [Start here to draft your first job search announcement](guides/FIRST-JOB-SEARCH.md). Open a chat, copy the request, and follow the example.
+
 Choose one platform version for each task. Both use the same private job search profile and evidence standards.
 
 | Number | Option | Start here | Coverage |
