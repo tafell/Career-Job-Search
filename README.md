@@ -1,36 +1,29 @@
 # Career Job Search
 
-A Claude plugin for senior leaders running a job search. Three skills that work together:
+Choose one platform version for each task. Both use the same private job search profile and evidence standards.
 
-| Skill | What it does | Say something like |
-| --- | --- | --- |
-| `executive-resume-coach` | Interviews you about an accomplishment, tests it for specificity and differentiation, and rewrites it using only evidence you supply. Never invents numbers or scope. | "Help me strengthen this resume bullet" |
-| `job-posting-review` | Pulls one posting (including LinkedIn, through a logged-in browser), checks it against your profile axis by axis, and gives a clear verdict: strong fit, worth a shot, a reach, or pass. | "Is this role worth applying to? <link>" |
-| `job-alert-to-application` | Takes a job alert email or list of links, triages every line, verifies the strongest roles on the employer's own careers site, tailors a resume and cover letter for each, and logs them in your tracker. Can run on a schedule. | "Triage today's job alert" |
+| Number | Option | Start here | Coverage |
+| --- | --- | --- | --- |
+| 1 | Claude | [Getting started](guides/GETTING-STARTED.md) and [skills](skills/) | resume coaching, posting review, an integrated alert-to-application workflow, and public announcements |
+| 2 | ChatGPT | [ChatGPT setup](chatgpt/README.md) | Nine reusable skills and two custom assistant configurations |
 
-## Get started
+## Start here
 
-1. **Install the plugin.**
-   - Claude Code: run `/plugin marketplace add tafell/career-job-search`, then `/plugin install career-job-search@career-job-search`.
-   - Claude desktop or web: download this repository and upload the `.plugin` file from the latest release, or upload each folder under `skills/` as a custom skill.
-2. **Fill in your profile.** Copy [`templates/job-search-profile.md`](templates/job-search-profile.md), fill it in, and keep it where Claude can see it (a Claude Project document works well). The skills read your targets, constraints, and document locations from it, so nothing personal lives in the skills.
-3. **Connect tools (optional).** See [`CONNECTORS.md`](CONNECTORS.md). Everything also works by pasting text and attaching files.
-
-## Design principles
-
-1. **Evidence only.** Resume and cover letter text traces to what you supplied. Interpretive phrasing is flagged for you to confirm.
-2. **Verify at the source.** Job board listings are checked against the employer's own careers site before a verdict is final; expired postings are flagged, not silently dropped.
-3. **Read-only on the web.** The skills never click Apply, sign in, or fill forms. You submit applications yourself.
-4. **Verdict first.** Every review leads with the bottom line.
+1. Fill in a private copy of the [profile template](templates/job-search-profile.md).
+2. Read [Getting started](guides/GETTING-STARTED.md) for setup and a first task.
+3. Use the [workflow guide and examples](guides/WORKFLOWS.md) to choose the right skill.
+4. Read [Shared rules](guides/SHARED-RULES.md) for evidence, compensation, verdicts, and application boundaries.
+5. See [tools and troubleshooting](CONNECTORS.md) when a source or connector is unavailable.
 
 ## Privacy
 
-Do not commit a filled-in profile, resume, or tracker export to a public fork. The `.gitignore` excludes common file names for these.
+1. Never commit filled-in profiles, resumes, contact lists, alerts, tracker exports, or interview stories.
+2. Keep candidate documents in a private project or conversation. Public custom assistants should contain only blank templates and generic instructions.
+3. Review every upload. Ignore rules cannot guarantee that private files will be excluded.
+4. The assistant prepares materials; you submit applications. Sending messages and changing external records require explicit instructions.
 
-## Credits
+## Credits and license
 
-`executive-resume-coach` is adapted from Lisa Rangel's article [Stop Asking AI to Write Your Executive Resume](https://www.hellersearch.com/blog/stop-asking-ai-to-write-your-executive-resume), published by Heller Search.
+1. The Claude executive resume coaching sequence credits Lisa Rangel's [article on executive resume coaching](https://www.hellersearch.com/blog/stop-asking-ai-to-write-your-executive-resume), published by Heller Search. The ChatGPT adaptation retains this attribution.
+2. See [LICENSE](LICENSE) for permission and reuse terms.
 
-## License
-
-MIT. See [`LICENSE`](LICENSE).
