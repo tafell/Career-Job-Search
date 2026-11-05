@@ -19,7 +19,7 @@ The user's application tracker lives in ~~tracker (for example a Notion database
 
 ## Run log (automated mode, or on request)
 
-Create a page or row titled "Job Alert Run Log - <alert date>" next to the tracker:
+Use the alert log destination and field names in the private profile. The log may live in a separate file, worksheet, or database from the application tracker. If the destination is unspecified or unavailable, return a copyable entry and ask where future runs should look for it. When a write is requested and supported, record the alert date and available message identifier with the following details:
 
 1. Bottom line, and deadlines within 7 days.
 2. Numbered verdicts for every alert line, grouped PURSUE, STRETCH, SETTLE, PASS, one-line reason each. PURSUE and STRETCH add requisition, employer link, compensation, remote status, deadline, fit points, gaps, file names, and tracker link. SETTLE adds requisition, link, compensation, the trigger, and deadline.
