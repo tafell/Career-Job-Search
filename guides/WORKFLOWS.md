@@ -4,20 +4,20 @@ Choose the skill by the output you need. Do not run both platform alternatives o
 
 ## Job search workflow
 
-Start at the step that matches your situation. If you already have a posting, go straight to Job Posting Review. A public announcement can run alongside any application.
+First, announce your availability and offer help to others. After you submit an application, look for contacts who could help with that particular role.
 
 ```mermaid
 flowchart TD
-    profile["Your private job search profile"] --> direction["Career Direction: choose target roles"]
+    announce["Announce your availability and offer help"] --> direction["Career Direction: choose target roles"]
     direction --> discover["Opportunity Discovery: find openings"]
-    direction --> announce["Job Search Announcement: draft a public post"]
     discover --> review["Job Posting Review: assess one opening"]
     posting["A posting you already have"] --> review
     review --> decide{"Do you want to pursue this role?"}
     decide -->|Yes| materials["Executive Resume Coach: tailor your materials"]
     decide -->|No or later| track["Search Coordination: record status and next action"]
-    review -.->|Optional| outreach["Job Connection Outreach: find a contact and draft a message"]
     materials --> submit["You review and submit the application"]
+    submit --> outreach["Find relevant contacts and reach out for help"]
+    outreach --> track
     submit --> track
     track -->|Interview scheduled| interview["Interview Preparation: practice for the conversation"]
     interview -->|Record next steps| track
@@ -28,24 +28,26 @@ flowchart TD
 
 | Number | Need | ChatGPT owner | Claude route | Example request |
 | --- | --- | --- | --- | --- |
-| 1 | Choose targets | career-direction | resume coach for role-family alignment | Compare credible target lanes using my evidence. |
-| 2 | Find openings | opportunity-discovery | Discovery stage of job-alert-to-application | Check these companies and retain closed or unreadable listings. |
-| 3 | Decide fit | job-posting-review | job-posting-review | Assess this full posting against my profile and resume. |
-| 4 | Prepare materials | executive-resume-coach | resume coach; alert workflow for cover letters | Tailor my resume and cover letter using only supplied facts. |
-| 5 | Track applications | search-coordination | Tracker stage of alert workflow | Record my interview date and next action. |
-| 6 | Prepare interviews | interview-preparation | No dedicated packaged equivalent | Build a reusable story from this accomplishment. |
-| 7 | Run the sequence | job-alert-to-application | job-alert-to-application | Review these alerts, prepare materials for suitable roles, and propose tracker rows. |
-| 8 | Announce availability and offer help | job-search-announcement | job-search-announcement | Draft a public job-search announcement using my approved facts and chosen assistance. |
-| 9 | Find contacts for a posting | job-connection-outreach | Use the same standalone instructions | Who could introduce me to the hiring team? |
+| 1 | Announce availability and offer help | job-search-announcement | job-search-announcement | Draft a public job-search announcement using my approved facts and chosen assistance. |
+| 2 | Choose targets | career-direction | resume coach for role-family alignment | Compare credible target lanes using my evidence. |
+| 3 | Find openings | opportunity-discovery | Discovery stage of job-alert-to-application | Check these companies and retain closed or unreadable listings. |
+| 4 | Decide fit | job-posting-review | job-posting-review | Assess this full posting against my profile and resume. |
+| 5 | Prepare materials | executive-resume-coach | resume coach; alert workflow for cover letters | Tailor my resume and cover letter using only supplied facts. |
+| 6 | Track applications | search-coordination | Tracker stage of alert workflow | Record my interview date and next action. |
+| 7 | Find contacts after applying | job-connection-outreach | Use the same standalone instructions | I applied for this role. Who could introduce me to the hiring team? |
+| 8 | Prepare interviews | interview-preparation | No dedicated packaged equivalent | Build a reusable story from this accomplishment. |
+| 9 | Run the sequence | job-alert-to-application | job-alert-to-application | Review these alerts, prepare materials for suitable roles, and propose tracker rows. |
 
 ## Handoffs
 
-1. Career direction supplies targets and constraints, not invented career evidence.
-2. Discovery supplies unique openings, full text where accessible, and source status. It does not judge fit from titles.
-3. Evaluation supplies verdicts, requirement comparisons, and unresolved questions.
-4. Materials use source resumes and confirmed answers. Interpretive wording stays separate until resolved.
-5. Coordination records actual application state and next actions. It never treats documents created as applications submitted.
-6. Interview preparation reuses supported evidence and verified employer research. It does not silently rewrite career facts.
+1. Announce your availability and offer a specific way to help others.
+2. Career direction supplies targets and constraints, not invented career evidence.
+3. Discovery supplies unique openings, full text where accessible, and source status. It does not judge fit from titles.
+4. Evaluation supplies verdicts, requirement comparisons, and unresolved questions.
+5. Materials use source resumes and confirmed answers. Interpretive wording stays separate until resolved.
+6. After you submit the application, identify contacts and reach out with a specific request.
+7. Coordination records actual application state and next actions. It never treats documents created as applications submitted.
+8. Interview preparation reuses supported evidence and verified employer research. It does not silently rewrite career facts.
 
 ## Useful requests
 
@@ -68,7 +70,7 @@ flowchart TD
 
 ## Job-specific connections
 
-1. Use Job Connection Outreach to find relevant connections, distinguish verified relationships from public prospects, and draft insight, introduction, or referral requests. See [the connection guide](JOB-CONNECTIONS.md).
+1. After submitting your application, use Job Connection Outreach to find relevant connections, distinguish verified relationships from public prospects, and draft insight, introduction, or referral requests. See [the connection guide](JOB-CONNECTIONS.md).
 2. Supply the posting and private connection data. Public search alone does not reveal your network. Nothing is sent automatically.
 
 ## Public job-search announcements
