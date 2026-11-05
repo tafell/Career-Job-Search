@@ -2,6 +2,8 @@
 
 Use nine reusable skills grouped by purpose with the same private profile used by the Claude versions.
 
+[See the job search workflow diagram](../guides/WORKFLOWS.md#job-search-workflow) to choose your starting point.
+
 ## Skills
 
 | Number | Group | Skill | What it produces | Example request |
