@@ -29,3 +29,4 @@ Choose one platform version for each task. Both use the same private job search 
 1. The Claude executive resume coaching sequence credits Lisa Rangel's [article on executive resume coaching](https://www.hellersearch.com/blog/stop-asking-ai-to-write-your-executive-resume), published by Heller Search. The ChatGPT adaptation retains this attribution.
 2. See [LICENSE](LICENSE) for permission and reuse terms.
 
+[Printable beginner guide](guides/job-search-beginner-guide.pdf) · [Email template to share the guide](templates/share-job-search-guide-email.md) · [Download the complete collection](https://github.com/tafell/Career-Job-Search/archive/refs/heads/main.zip)

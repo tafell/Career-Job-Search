@@ -21,3 +21,5 @@ Use this guide to draft a short post telling people what work you are looking fo
 9. **Keep a simple record.** Save the employer, role, posting link, decision, and next action in a document or spreadsheet you already use. You submit your own application. After applying, use **7. Job Connection Outreach** to identify someone who could help and draft a private message.
 
 For email alerts, shared folders, or a tracker you already use, follow [Set up the tools you already use](https://github.com/tafell/Career-Job-Search/blob/main/guides/GETTING-STARTED.md#set-up-the-tools-you-already-use) when you need it.
+
+[Printable version](job-search-beginner-guide.pdf) · [Email this guide to someone](../templates/share-job-search-guide-email.md)
