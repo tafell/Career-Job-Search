@@ -10,4 +10,4 @@ I put together a short guide you might find useful. It walks you through writing
 
 I’d be glad to hear how your search is going and what kind of introduction would be useful.
 
-[Your name]
+[Insert your usual email signature here.]
