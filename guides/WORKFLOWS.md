@@ -11,7 +11,7 @@ flowchart TD
     announce["1. Announce your availability and offer help"] --> direction["2. Career Direction: choose target roles"]
     direction --> discover["3. Opportunity Discovery: find openings"]
     discover --> review["4. Job Posting Review: assess one opening"]
-    batch["9. Job Alert to Application (batch workflow)"] -.->|Starts with discovery| discover
+    batch["9. Job Alert to Application (email alerts)"] -.->|Extract openings from alerts| discover
     posting["A posting you already have"] --> review
     review --> decide{"Do you want to pursue this role?"}
     decide -->|Yes| materials["5. Executive Resume Coach: tailor your materials"]
@@ -24,7 +24,7 @@ flowchart TD
     interview -->|Record next steps| track
 ```
 
-**9. Job Alert to Application** coordinates discovery, review, materials, and tracking when you start with a batch of alerts. Ask it to stop after the stage you need. You can also use **Interview Preparation** at any time to build a story bank.
+**9. Job Alert to Application** coordinates discovery, review, materials, and tracking when you start with job alert emails. Supply emails from your chosen alert source or paste their text. Step 3 extracts and deduplicates openings. For a list only, stop there. For a fit assessment, continue to step 4. Ask it to stop after the stage you need. You can also use **Interview Preparation** at any time to build a story bank.
 
 
 | Number | Need | ChatGPT owner | Claude route | Example request |
