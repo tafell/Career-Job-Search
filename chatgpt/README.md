@@ -8,15 +8,15 @@ Use nine reusable skills grouped by purpose with the same private profile used b
 
 | Number | Group | Skill | What it produces | Example request |
 | --- | --- | --- | --- | --- |
-| 1 | Career direction | [career-direction](skills/career-direction/SKILL.md) | Target lanes, positioning, and development gaps | Help me choose credible target roles. |
-| 2 | Opportunity discovery | [opportunity-discovery](skills/opportunity-discovery/SKILL.md) | Deduplicated openings with source status | Find new openings at my target companies. |
-| 3 | Opportunity evaluation | [job-posting-review](skills/job-posting-review/SKILL.md) | Evidence-backed fit verdicts | Which of these jobs should I pursue? |
-| 4 | Career and application materials | [executive-resume-coach](skills/executive-resume-coach/SKILL.md) | resumes, cover letters, profiles, and biographies | Tailor my resume using my uploaded baseline. |
-| 5 | Application tracking | [search-coordination](skills/search-coordination/SKILL.md) | Tracker records, conversions, deadlines, and next actions | Convert my tracker and record my next follow-up date. |
-| 6 | Interview preparation | [interview-preparation](skills/interview-preparation/SKILL.md) | Story bank, interview brief, practice, and debrief | Build stories for different interview questions. |
-| 7 | Coordination across groups | [job-alert-to-application](skills/job-alert-to-application/SKILL.md) | A staged handoff through groups 2 through 5 | Process these alerts and prepare materials for suitable roles. |
-| 8 | Public networking | [job-search-announcement](skills/job-search-announcement/SKILL.md) | Public announcement drafts with specific asks and a chosen offer of help | Announce my job search and offer assistance to others. |
-| 9 | Private networking | [job-connection-outreach](skills/job-connection-outreach/SKILL.md) | Ranked contacts and private message drafts | Who could introduce me to this hiring team? |
+| 1 | Public networking | [job-search-announcement](skills/job-search-announcement/SKILL.md) | Public announcement drafts with specific asks and a chosen offer of help | Announce my job search and offer assistance to others. |
+| 2 | Career direction | [career-direction](skills/career-direction/SKILL.md) | Target lanes, positioning, and development gaps | Help me choose credible target roles. |
+| 3 | Opportunity discovery | [opportunity-discovery](skills/opportunity-discovery/SKILL.md) | Deduplicated openings with source status | Find new openings at my target companies. |
+| 4 | Opportunity evaluation | [job-posting-review](skills/job-posting-review/SKILL.md) | Evidence-backed fit verdicts | Which of these jobs should I pursue? |
+| 5 | Career and application materials | [executive-resume-coach](skills/executive-resume-coach/SKILL.md) | resumes, cover letters, profiles, and biographies | Tailor my resume using my uploaded baseline. |
+| 6 | Application tracking | [search-coordination](skills/search-coordination/SKILL.md) | Tracker records, conversions, deadlines, and next actions | Convert my tracker and record my next follow-up date. |
+| 7 | Private networking | [job-connection-outreach](skills/job-connection-outreach/SKILL.md) | Ranked contacts and private message drafts | I applied for this role. Who could introduce me to the hiring team? |
+| 8 | Interview preparation | [interview-preparation](skills/interview-preparation/SKILL.md) | Story bank, interview brief, practice, and debrief | Build stories for different interview questions. |
+| 9 | Coordination across groups | [job-alert-to-application](skills/job-alert-to-application/SKILL.md) | Discovery, review, materials, and tracking | Process these alerts and prepare materials for suitable roles. |
 
 ## Set up a private project
 
@@ -78,7 +78,7 @@ Use nine reusable skills grouped by purpose with the same private profile used b
 
 ## Job-specific connections
 
-1. Use Job Connection Outreach to find relevant connections, distinguish verified relationships from public prospects, and draft insight, introduction, or referral requests. See [the connection guide](../guides/JOB-CONNECTIONS.md).
+1. After submitting your application, use Job Connection Outreach to find relevant connections, distinguish verified relationships from public prospects, and draft insight, introduction, or referral requests. See [the connection guide](../guides/JOB-CONNECTIONS.md).
 2. Supply the posting and private connection data. Public search alone does not reveal your network. Nothing is sent automatically.
 
 ## Public job-search announcements
